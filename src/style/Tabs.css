@@ -1,0 +1,36 @@
+.tab-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    /* width: 100%; */
+    height: 28px;
+    margin: 15px 5px 0px 0;
+    padding: 10px;
+    /* border: rgb(42, 161, 74) solid 2px; */
+    background-color: white;
+    font-weight: 700;
+}
+
+.alltab{
+    /* margin: 5px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0px 0px; */
+    width: 169px;
+    /* background-color: blanchedalmond; */
+    /* width: 30%; */
+}
+.close-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px;
+    /* border: solid black 1px; */
+    padding: 5px;
+    /* border-radius: 20px; */
+    font-weight:900;
+    font-size: larger;
+}

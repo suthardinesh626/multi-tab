@@ -1,0 +1,57 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+  /* border: 2px greenyellow solid; */
+  /* width: 75%; */
+  /* height: 790px; */
+}
+.all-components {
+  border: gray 5px solid;
+  width: 75%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+}
+.tab-data-mapping {
+  height: 600px;
+}
+.tab-data-mapping::-webkit-scrollbar {
+  /* For Chrome, Safari and Opera */
+  display: none;
+}
+.tab-data {
+  display: flex;
+  flex-direction: column;
+}
+.tabs-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: gray;
+  cursor: pointer;
+}
+.tabs-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  overflow-y: auto;
+  scrollbar-width: none;
+  width: 1220px;
+  height: 70px;
+}
+
+.tabs-container::-webkit-scrollbar {
+  /* For Chrome, Safari and Opera */
+  display: none;
+}
+.alleventlist {
+  cursor: pointer;
+}
