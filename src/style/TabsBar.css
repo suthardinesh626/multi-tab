@@ -5,7 +5,7 @@
     /* background-color: blue; */
     padding: 15px;
     overflow: scroll;
-    height: 640px;
+    height: 600px;
 }
 .body::-webkit-scrollbar { /* For Chrome, Safari and Opera */
     display: none;
@@ -15,8 +15,9 @@
     margin: 4px;
     padding: 10px;
     text-align: justify;
-    border: 1px solid black;
-    background-color: rgb(201, 196, 196);
+    /* border: 1px solid black; */
+    background-color: rgb(194, 184, 149);
     /* font-weight: 900; */
+    border-radius: 5px;
     font-family: sans-serif;
 }
